@@ -28,43 +28,98 @@ html {
     color: #4f4f4f;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 3px;
   }
   
-  a {
+a {
     color: #4f4f4f;
     text-decoration: none;
     letter-spacing: 3px;
   }
   
-  section{
+section{
     padding: 4% 0;
   }
   
-  /*Website styles go under here by section  */
+/*Website styles go under here by section  */
+header {
+display: inline-block;
+}
 
-  nav .plan {
-    background-color: #FF764E;
-  }
+nav {
+    display: inline-block;
+    width: 100%;
+}
 
-  nav .learn {
-    background-color: #5ED3EB;
-  }
+nav a {
+border-radius: 10px;
+width: 5%;
+padding: 2% 0;
+word-wrap: break-word;
+text-align: center;
+vertical-align: middle;
+}
 
-  nav .involved {
-    background-color: #FFCD69;
-  }
+nav .plan {
+background-color: #FF764E;
 
-  h1 {
-    font-family: 'Chelsea Market', cursive;
-  }
+}
 
-  .description {
+nav .learn {
+background-color: #5ED3EB;
+}
+
+nav .involved {
+background-color: #FFCD69;
+}
+
+header {
+    display: inline-block;
+}
+
+.img {
+    width: 25%;
+}
+
+header img {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+}
+
+h1 {
+font-family: 'Chelsea Market', cursive;
+}
+
+.description {
     background-color: #DDB9A3;
-  }
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 2%;
+}
 
-  footer {
-      background-color: #F9E7DC;
-  }
+.description p {
+    color: white;
+    margin: 1% 1%;
+    text-align: center;
+
+}
+
+.advice img {
+    width: 15%;
+    margin: 3% auto;
+}
+
+.advice p {
+    width: 25%;
+    text-align: center;
+}
+
+footer img {
+}
+
+footer {
+    background-color: #F9E7DC;
+}
