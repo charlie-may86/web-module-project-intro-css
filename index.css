@@ -1,125 +1,150 @@
+/* Include a reset, use scalable units of measurement, use inline block */
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-family: 'Roboto Mono', monospace;
+}
 
-/*  
+html {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3.5rem;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
+
+/* 
 font-family: 'Chelsea Market', cursive;
 font-family: 'Roboto Mono', monospace;
 */
+/* header buttons */
 
-/* The brit hemming reset */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    border: 1px solid gray;
-}
-
-
-/*general styles  */
-
-html {
-    font-size: 62.5%; /*1 rem === 10px and it gives the user control of the font size from the browser*/
-  }
-  
-  body {
-    font-family: 'Noto Serif', serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: #4f4f4f;
-  }
-  
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: 3px;
-  }
-  
-a {
-    color: #4f4f4f;
+.header header nav a {
     text-decoration: none;
-    letter-spacing: 3px;
-  }
-  
-section{
-    padding: 4% 0;
-  }
-  
-/*Website styles go under here by section  */
-header {
-display: inline-block;
-}
-
-nav {
+    /* border: 1px solid grey; */
+    padding: 1%;
     display: inline-block;
-    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 2% 5%;
+    height: 40px;
+    weight: 80px;
+       
 }
 
-nav a {
-border-radius: 10px;
-width: 5%;
-padding: 2% 0;
-word-wrap: break-word;
-text-align: center;
-vertical-align: middle;
+.header header .head_nav {
+    text-align: center;
+    margin: 2%;
 }
 
-nav .plan {
-background-color: #FF764E;
-
+.plan {
+    background-color:#FF764E;
+    color: white;
 }
 
-nav .learn {
-background-color: #5ED3EB;
+.learn {
+    background-color: #5ED3EB;
+    color: white;
 }
 
-nav .involved {
-background-color: #FFCD69;
+.get {
+    background-color: #FFCD69;
+    color: white;
 }
-
-header {
-    display: inline-block;
-}
-
-.img {
-    width: 25%;
-}
-
-header img {
+.header img {
     border-radius: 50%;
-    width: 15%;
-    height: auto;
+    max-width: 20%;
+    margin-top: 4%; 
+    
 }
 
-h1 {
-font-family: 'Chelsea Market', cursive;
+header .guide .yosemite{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    padding: 4%;
+    margin: 5%;
 }
+
+.yosemite p {
+    font-size: 1.5rem;
+
+}
+
+header .guide {
+    margin: 2%;
+    text-align: center;
+}
+
 
 .description {
     background-color: #DDB9A3;
-    width: 90%;
-    margin: 0 auto;
-    padding: 1% 2%;
-}
-
-.description p {
     color: white;
-    margin: 1% 1%;
+    padding: 1%;
+    margin: 2%;
     text-align: center;
-
+    font-size: 1.5rem;
+    
 }
 
-.advice img {
-    width: 15%;
-    margin: 3% auto;
+.description p{
+    margin: 1%;
 }
 
-.advice p {
-    width: 25%;
+.logo img {
+    max-width: 10%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.logo p {
+    margin-left: 35%;
+    margin-right: 35%;
     text-align: center;
 }
 
-footer img {
+.logo p #fire{
+    font-weight: bold;
+}
+.logo p #park{
+    font-weight: bold;
 }
 
-footer {
+.logo {
+    margin-bottom: 3%;
+}
+
+.footer .footer_image {
+    display: block;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+/* footer buttons */
+.footer nav {
     background-color: #F9E7DC;
+}
+
+.footer nav a{
+    text-decoration: none;
+    /* border: 1px solid grey; */
+    padding: 1%;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 2% 5%;
+
+}
+
+.footer nav {
+    text-align: center;
 }
